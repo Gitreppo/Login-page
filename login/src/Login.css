@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(73, 73, 166);
+  }
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+   
+}
+.login{
+    max-width: 450px;
+    background-color: rgba(10, 9, 9,0.8);
+    margin: auto;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: white;
+   
+    
+
+}
+input[type]{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(10, 9, 9,0.8);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    color: white;
+}
+input[type="submit"]{
+    background-color: blue;
+    opacity: 0.5;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+    opacity: 1;
+}
+span{
+    color: red;
+}
+
+.btn{
+    margin-left: -40px;
+    cursor: pointer;
+    background-color: rgba(10, 9, 9,0.8);
+    border: none;
+ 
+}
+.btn span{
+    color: white;
+    font-size: 15px;
+}
+@media screen and (max-width:480px){
+    .login{
+        max-width: 300px;
+    }
+}
